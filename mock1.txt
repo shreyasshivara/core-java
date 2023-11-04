@@ -1,0 +1,125 @@
+1.java:java is aobject oriented programming language, which is used to develop an web applications.
+  javac:it is a tool used to compile the code.
+
+2. jdk:Jdk means java development kit, it consists jre+jvm
+   jre:jre means java runtime environment, it consists of librery+tool, and it will converts into a byte code.
+   jvm:jvm means java virtual machine , it will exicute the code.
+
+3. .java file:the file which is created by the developer it will save as .java file and it can used by annother developer 
+   .class file:the jre will converts .java file to .class file 
+
+4. java ide's:
+
+5. variable: it is a name and allocates the memory of the value.
+    types:local variable--the variable which used to declare in side the method level known as variable. ex== class Test{
+															void int marks()
+														         int marks=35;
+                                                                                                                          }
+                                                                                                                        
+          Static variable--- the variables which is used to declare in the class level that is known as static variable.ex=class Animal{
+																static String name;
+
+																} 
+          instance variable--- it is nothing but non-static variable, ex== class Bike{
+											 String name;
+														         
+                                                                                       }
+
+6. the object oriented programming language means , solving the problems of things or entity which is around us.
+
+7. error
+
+8.data type is size and diff value is stored in a variable.
+  premitive-- byte,int,double,float,long,short,boolean. ex== int marks=35;
+  non-premitive-- array, all class, String. ex== String name;
+
+9.dot operator is a access specifier which is used to access  the method or variables from same or diff class. ex== class Watch{
+																double cost;
+ 
+																void watch(double cost){	
+																this.cost=cost;
+																		}
+																		} 
+10.speed
+   write once, can run in anyware.
+ 
+
+11. array is an collection of elements. class Animals{
+						String[] type= {"lion", "tiger", "elephant"}; 																																	}
+
+12.class: class is a templet or blueprint of the object.ex== class Car{
+									}
+   object: object is nothing but entity or real world things.
+
+
+13.keywords: the words which are pre defined by java ia known as key words , and these key words has special meaning ,
+	1.int
+ 	2.short
+	3.byte
+	4.long
+	5.boolean
+	6.this
+	7 super
+	8.continue
+	9.return
+	10.double
+	11.throw
+	12.throws
+
+14.constroctor is a special method, which has class inside the class. and it has no return type,
+
+
+15.
+ 	types;public=access specifier
+              static =keyword
+	      void= return type
+              main= main method
+              String= data type
+
+
+
+16.class Numbers{
+																					int[] num= {12,3,2,45,6,7,6};
+public static void main(String[]args){
+for ( int i=0, i<Number.length, i++);
+System.out.println(i);
+}
+}	
+           																											
+
+17. ex== class Bat{																			double cost;																		String brand;																	bat(double cost,String brand)
+{		
+	this.cost=cost;																		this.brand=brand;
+}																	
+		void showInfo()	{																	System.out.println("the bat name is:"+ name);														System.out.println("the brand is:"+ brand);																																	}
+}
+class batStarter{
+
+ public static void main(String[]cricket)
+{
+Bat bat =new Bat(1599D,"MRF");
+
+bat.showInfo()
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
