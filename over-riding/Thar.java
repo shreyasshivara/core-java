@@ -1,19 +1,16 @@
 class Thar extends Car1{
 	
 	double cost;//ref
-	String colour;//const
+	String colours;//const
 	
 	Thar(){
 		
 	}
-	Thar(String colour){
-		System.out.println("the colour is :"+ colour);
-	}
-	Thar(CarWheel wheel,int topSpeed,String brand,int noOfSeating){
-		System.out.println("drive weels are:"+ wheel);
-		System.out.println("topspeed:"+ topSpeed +"kmph");
-		System.out.println("Brand :"+ brand);
-		System.out.println("seats:"+ noOfSeating);
+	
+	Thar(String colour,CarWheel wheel,int topSpeed,String brand,int noOfSeating,CarFuel fuel,int driveWheel,String colours){
+		super(wheel,topSpeed,brand,noOfSeating);
+		super.setFuel(fuel,driveWheel,colour);
+		this.colours=colours;
 		
 		
 	}
@@ -29,15 +26,19 @@ class Thar extends Car1{
 	void lifestyleStatement(){
 		System.out.println("Running lifestyleStatement in Thar");
 	}
+	@Override
 	void transportation(){
 	System.out.println("running transportation in Thar");
 	}
+	@Override
 	void personalMobility (){
 		System.out.println("running personalMobility in Thar");
 	}
+	@Override
 	void cargoHauling(){
 		System.out.println("running cargoHauling in Thar");
 	}
+	@Override
 	void emergencyResponse(){
 		System.out.println("running emergencyResponse in Thar");
 	

@@ -7,7 +7,9 @@ class Remote{
 		
 	}
 	Remote(RemoteUsedFor usedFor,int totalButtons,boolean origional){
-		
+		this.usedFor=usedFor;
+		this.totalButtons=totalButtons;
+		this.origional=origional;
 		
 	}
 	void on(){

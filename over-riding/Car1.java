@@ -14,12 +14,16 @@ class Car1{
 		
 	}
 	Car1(CarWheel wheel,int topSpeed,String brand,int noOfSeating){
+		this.wheel=wheel;
+		this.topSpeed=topSpeed;
+		this.brand=brand;
+		this.noOfSeating=noOfSeating;
 		
 	}
 	void setFuel(CarFuel fuel,int driveWheel,String colour){
-		System.out.println("fuel:"+ fuel);
-		System.out.println("Drive wheels:"+ driveWheel);
-		System.out.println("colour :" + colour);
+		this.driveWheel=driveWheel;
+		this.colour=colour;
+		this.fuel=fuel;
 		
 	}
 	void transportation(){
