@@ -1,0 +1,3 @@
+enum CarFuel{
+	PETROL,DIESEL
+}
