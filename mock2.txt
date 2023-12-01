@@ -2,12 +2,12 @@
 
     public static void main(String[] args) {
         int num = 100;
-        for (int seq = 2; seq<=num.length; seq++) {
+        for (int seq = 2; seq<=num; seq++) {
            boolean isPrime = true;
-           for (int num= 2; num<= Math.sqrt(seq); num++) {
+           for (int ref= 2; ref<= Math.sqrt(seq); ref++) {
               if (seq % num == 0) {
                  isPrime = false;
-                  return 0;
+                  
                 }
             }
             if (isPrime) {
