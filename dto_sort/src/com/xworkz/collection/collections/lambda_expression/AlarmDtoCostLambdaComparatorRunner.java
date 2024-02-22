@@ -28,6 +28,7 @@ public class AlarmDtoCostLambdaComparatorRunner {
 
         }
         Collections.sort(list,(a1,a2)->a2.getCost().compareTo(a1.getCost()));
+
         System.out.println("After desc=================");
         for (AlarmDTO ref :list
              ) {
